@@ -4,12 +4,14 @@ A machine learning application that predicts personality types (Introvert/Extrov
 
 ## 🌐 Live Application
 
-**[🚀 Try the Live App](https://personality-predictor.streamlit.app)**
+**[🚀 Try the Live App](https://samuux23.github.io/CI_project/)**
+
+> **Note**: The web application is now live at the root URL above. Click the link to access the interactive personality predictor!
 
 ## ✨ Features
 
 - **🤖 AI-Powered**: 96.9% accurate personality prediction
-- **📊 Beautiful UI**: Modern, responsive design with Streamlit
+- **📊 Beautiful UI**: Modern, responsive design
 - **📱 Mobile Friendly**: Works on all devices
 - **⚡ Real-time**: Instant predictions with confidence scores
 - **📈 Insights**: Detailed personality trait explanations
@@ -32,7 +34,7 @@ Based on these inputs, the AI model predicts whether you're an **Introvert** or 
 ## 🚀 Quick Start
 
 ### Option 1: Use the Live App
-Simply visit **[https://personality-predictor.streamlit.app](https://personality-predictor.streamlit.app)** and start predicting!
+Simply visit **[https://samuux23.github.io/CI_project/](https://samuux23.github.io/CI_project/)** and start predicting!
 
 ### Option 2: Run Locally
 
@@ -42,19 +44,15 @@ Simply visit **[https://personality-predictor.streamlit.app](https://personality
    cd CI_project
    ```
 
-2. **Install dependencies**
+2. **Open index.html in browser**
+   - Simply open `index.html` in your web browser
+   - No server setup required!
+
+3. **Alternative: Run Streamlit version**
    ```bash
    pip install -r requirements.txt
-   ```
-
-3. **Run the Streamlit app**
-   ```bash
    streamlit run streamlit_app.py
    ```
-
-4. **Open in browser**
-   - Navigate to `http://localhost:8501`
-   - Start predicting personalities!
 
 ## 📊 Model Performance
 
@@ -68,7 +66,8 @@ Simply visit **[https://personality-predictor.streamlit.app](https://personality
 
 ```
 CI_project/
-├── streamlit_app.py              # Main Streamlit application
+├── index.html                    # Static web app (GitHub Pages)
+├── streamlit_app.py              # Streamlit application
 ├── personality_predictor_app.py  # Flask version (single file)
 ├── requirements.txt              # Python dependencies
 ├── best_comprehensive_model.pkl  # Trained model
@@ -82,10 +81,10 @@ CI_project/
 
 ## 🎨 Technologies Used
 
-- **Frontend**: Streamlit
-- **Backend**: Python, scikit-learn
+- **Frontend**: HTML, CSS, JavaScript (GitHub Pages)
+- **Alternative**: Streamlit, Python, scikit-learn
 - **ML Model**: Gradient Boosting Classifier
-- **Deployment**: Streamlit Cloud, GitHub Actions
+- **Deployment**: GitHub Pages, Streamlit Cloud
 - **Styling**: Custom CSS with gradients
 
 ## 📈 Model Training
@@ -98,22 +97,33 @@ The model was trained using:
 
 ## 🔧 Development
 
-### Local Development
-```bash
-# Install development dependencies
-pip install -r requirements.txt
+### Static Version (Recommended for GitHub Pages)
+The `index.html` file contains a complete static version of the personality predictor that:
+- ✅ Works without any server setup
+- ✅ Runs entirely in the browser
+- ✅ Uses JavaScript-based prediction logic
+- ✅ Maintains the same beautiful UI
+- ✅ Provides instant results
 
-# Run the app
-streamlit run streamlit_app.py
+### Streamlit Version
+For the full ML model experience, use `streamlit_app.py` which:
+- ✅ Uses the actual trained ML model
+- ✅ Provides more accurate predictions
+- ✅ Requires Python environment setup
 
-# Run tests
-python test_model_debug.py
-```
+## 🚀 Deployment
 
-### Deployment
-The app is automatically deployed to Streamlit Cloud when you push to the main branch.
+### GitHub Pages (Current)
+- **URL**: https://samuux23.github.io/CI_project/
+- **Type**: Static HTML/CSS/JavaScript
+- **Status**: ✅ Live and working
 
-## 📱 Usage Examples
+### Streamlit Cloud (Alternative)
+- **URL**: https://personality-predictor.streamlit.app
+- **Type**: Full ML model deployment
+- **Status**: Available for advanced users
+
+## 📝 Usage Examples
 
 ### Extrovert Pattern
 - Time alone: 1-2 hours
@@ -126,41 +136,30 @@ The app is automatically deployed to Streamlit Cloud when you push to the main b
 
 ### Introvert Pattern
 - Time alone: 6+ hours
-- Social events: 1-2 per month
-- Going outside: 1-2 times per week
-- Friends: 3-5 people
-- Posts: 0-2 per week
+- Social events: 2-3 per month
+- Going outside: 2-3 times per week
+- Friends: 2-5 people
+- Posts: 1-2 per week
 - Stage fear: Yes
 - Drained: Yes
 
 ## 🤝 Contributing
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
-- Dataset: Personality prediction dataset
-- Streamlit: For the amazing web app framework
-- scikit-learn: For the machine learning tools
-- GitHub: For hosting and deployment
-
-## 📞 Support
-
-If you have any questions or issues:
-1. Check the [Issues](https://github.com/Samuux23/CI_project/issues) page
-2. Create a new issue with detailed information
-3. Contact the maintainer
+- Built with modern web technologies
+- Powered by machine learning algorithms
+- Deployed on GitHub Pages for easy access
 
 ---
 
-**🎉 Enjoy predicting personalities with AI!**
-
-**[🚀 Try the Live App Now](https://personality-predictor.streamlit.app)** 
+**🎯 Ready to discover your personality type? [Click here to start!](https://samuux23.github.io/CI_project/)** 
